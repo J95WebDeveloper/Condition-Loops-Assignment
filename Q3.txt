@@ -1,0 +1,45 @@
+Q3. What are loops, and what do we need them? Explain different types of loops with their syntax and
+    examples.
+
+Answer - 
+
+Loops : a loop is a programming tool that is used to repeat a set of instructions. iterate is a generic
+        term that means "to repeat" in the context of loops. a loop will continue to iterate until a 
+        specified condition, commonly known as a stopping condition, is met.
+
+1. For loop : Repeates code until the condtion is false.
+              syntax :
+                    for(initial; condition; update){
+                        // code
+                    }
+
+              example : 
+                    for(let i=1; i<=10; i++){
+                        console.log(i)
+                    }      
+
+2. While loop : Runs code as long as the condition is true.
+                syntax:
+                     while(condition){
+                        // code
+                     }
+
+                example : 
+                    let i=1
+                    while(i<=5){
+                        console.log(i)
+                        i++
+                    }
+
+3. Do-while loop : Runs code at at least once, then continues if the condition is true.
+                   syntax:
+                       do{
+                         // code
+                       }while(condition)
+
+                   example :
+                        let i=1
+                        do{
+                            console.log(i)
+                            i++
+                        }while(i<=5)   
